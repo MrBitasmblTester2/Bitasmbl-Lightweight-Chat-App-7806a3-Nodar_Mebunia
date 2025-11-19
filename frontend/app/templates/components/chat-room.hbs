@@ -1,0 +1,5 @@
+<div class="chat-room">
+  <div class="messages">{{#each this.messages as |m|}}<div>[{{m.timestamp}}] {{m.user}}: {{m.text}}</div>{{/each}}</div>
+  <input placeholder="Type a message" oninput={{this.updateDraft}} />
+  <button {{on "click" (fn this.send this.draft this.args.room this.draftUser)}}>Send</button>
+</div>
