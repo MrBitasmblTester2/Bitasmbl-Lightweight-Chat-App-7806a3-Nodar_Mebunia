@@ -1,0 +1,1 @@
+{ "name":"lightweight-chat-frontend","private":true,"dependencies":{"@microsoft/signalr":"^7.0.0","ember-source":"~4.12.0"},"scripts":{"start":"ember serve"} }
